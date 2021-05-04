@@ -8,7 +8,7 @@ public class teste {
 		Pilha pilha = new Pilha();
 		
 		pilha.push("Claudio");
-		pilha.push("Rogério");
+		pilha.push("RogÃ©rio");
 		
 		System.out.println(pilha);
 		
