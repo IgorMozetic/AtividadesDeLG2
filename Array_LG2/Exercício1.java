@@ -1,6 +1,6 @@
-package Exercícios;
+package ExercÃ­cios;
 
-public class Exercício1 {
+public class ExercÃ­cio1 {
 
 	public static void main(String[] args) {
 		
@@ -11,7 +11,7 @@ public class Exercício1 {
 			array1[contador] = contador;
 		}
 		
-		System.out.println("Os elemnetos do array são: ");
+		System.out.println("Os elemnetos do array sÃ£o: ");
 		
 		for ( contador = 0; contador < array1.length; contador++ )	{
 			System.out.println( array1[contador] );
@@ -21,7 +21,7 @@ public class Exercício1 {
 			array1[contador] = array1[contador] * 3;
 		}
 		
-		System.out.println("Os elemnetos do array multiplicados por 3 são: ");
+		System.out.println("Os elemnetos do array multiplicados por 3 sÃ£o: ");
 		
 		for ( contador = 0; contador < array1.length; contador++ )	{
 			System.out.println( array1[contador] );
