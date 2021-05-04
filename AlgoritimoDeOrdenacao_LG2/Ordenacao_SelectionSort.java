@@ -9,7 +9,7 @@ public class Ordenacao_SelectionSort {
 
 		int []v = gerarVetor(10);
 		selectionSort(v);
-		System.out.println("O vetor de forma ordenada crescente por SelectionSort é: " + Arrays.toString(v));
+		System.out.println("O vetor de forma ordenada crescente por SelectionSort Ã©: " + Arrays.toString(v));
 	}
 	
 	private static void selectionSort( int[]v )	{
