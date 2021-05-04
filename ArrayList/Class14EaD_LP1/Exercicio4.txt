@@ -1,0 +1,22 @@
+package Atividade7;
+
+import java.util.ArrayList;
+
+class Exercicio4 {
+  public static void main(String[] args) {
+    
+    ArrayList<Integer> impar = new ArrayList<>();
+    Integer soma = 0;
+    
+    for(int x = 0; x <= 99; x++)	{
+      if (x % 2 == 1)	{
+        impar.add(x);
+      }
+    }
+    for(int x = 0; x < impar.size(); x++)	{
+     soma = soma + impar.get(x); 
+    }
+    
+    System.out.println("A soma de todos os números ímpares de 0 a 100 é: " + soma);
+  }
+}

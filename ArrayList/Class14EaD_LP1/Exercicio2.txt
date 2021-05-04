@@ -1,0 +1,54 @@
+package Atividade7;
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+class Exercicio2 {
+  public static void main(String[] args) {
+    
+    ArrayList<String> listaNomes = new ArrayList<>();
+    Scanner sc = new Scanner(System.in);
+    boolean verdade = true;
+    
+    listaNomes.add("Igor");
+    listaNomes.add("Madu");
+    listaNomes.add("João");
+    listaNomes.add("Pato");
+    listaNomes.add("Neymar");
+    
+    System.out.println("Os nomes da lista são: ");
+    for(String str: listaNomes)	{
+      System.out.println(str);
+    }
+    
+    while(verdade)	{
+      
+      System.out.println();
+      System.out.println("Você deseja excluir algum nome? Caso queira digite o nome desejado, e para sair digite N");
+      System.out.print("Resposta: ");
+     
+      String resposta = sc.nextLine();
+      
+      if(resposta.equals("n") || resposta.equals("N"))	{
+        System.exit(0);
+      }
+      
+      for(int x = 0; x < listaNomes.size(); x++ )	{
+        if(listaNomes.get(x).equals(resposta))	{
+          listaNomes.remove(listaNomes.get(x));
+          verdade = false;
+        }
+      }
+      
+      if(verdade)	{
+        System.out.println("Valor inserido é inválido");
+      }
+    }
+    
+    System.out.println();
+    System.out.println("Ok! Agora os nomes da lista são: ");
+    for(String str: listaNomes)	{
+      System.out.println(str);
+    }
+  }
+}
