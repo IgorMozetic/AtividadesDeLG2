@@ -1,6 +1,6 @@
-package Exercícios;
+package ExercÃ­cios;
 
-public class Exercício2 {
+public class ExercÃ­cio2 {
 
 	public static void main(String[] args) {
 
@@ -10,7 +10,7 @@ public class Exercício2 {
 			array1[contador] = contador;
 		}
 		
-		System.out.println("Os elementos do array são: ");
+		System.out.println("Os elementos do array sÃ£o: ");
 		
 		for (int contador = 9; contador >= 0 ; contador-- )	{
 			System.out.println( array1[contador] );
