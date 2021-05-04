@@ -1,8 +1,8 @@
-package Exercícios;
+package ExercÃ­cios;
 
 import java.util.LinkedList;
 
-public class Exercício4 {
+public class ExercÃ­cio4 {
 
 	public static void main(String[] args) {
 		
@@ -19,7 +19,7 @@ public class Exercício4 {
 		lista.add(6);
 		lista.add(8);
 		
-		System.out.println( "Os elementos presentes na lista são: " + lista );
+		System.out.println( "Os elementos presentes na lista sÃ£o: " + lista );
 
 
 		for( int contador = 0; contador < lista.size() ; contador++ )	{
@@ -28,7 +28,7 @@ public class Exercício4 {
 				maior = lista.get(contador);
 			}
 			
-			System.out.println("O maior elemento da lista é: " + maior);
+			System.out.println("O maior elemento da lista Ã©: " + maior);
 		}
 	}
 
