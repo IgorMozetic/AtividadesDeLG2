@@ -1,6 +1,6 @@
-package Exercícios;
+package ExercÃ­cios;
 
-public class Exercício3 {
+public class ExercÃ­cio3 {
 
 	public static void main(String[] args) {
 		
@@ -14,7 +14,7 @@ public class Exercício3 {
 	        }   
         }
 		
-		System.out.println("Os valores da subtração dos indices são: " );
+		System.out.println("Os valores da subtraÃ§Ã£o dos indices sÃ£o: " );
 		
 		for ( cont1 = 0; cont1 < 100; cont1++ ) {
             for ( cont2 = 0; cont2 < 100; cont2++ ){
@@ -28,7 +28,7 @@ public class Exercício3 {
             }
 		}
 		
-		System.out.println("Os valores da subtração dos indices multiplicados por 7 são: " );
+		System.out.println("Os valores da subtraÃ§Ã£o dos indices multiplicados por 7 sÃ£o: " );
 		
 		for ( cont1 = 0; cont1 < 100; cont1++ ) {
             for ( cont2 = 0; cont2 < 100; cont2++ ){
