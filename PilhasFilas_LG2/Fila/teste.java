@@ -10,7 +10,7 @@ public class teste {
 		Fila fila = new Fila();
 		
 		fila.push("Claudio");
-		fila.push("Rogério");
+		fila.push("RogÃ©rio");
 		
 		System.out.println(fila);
 		
