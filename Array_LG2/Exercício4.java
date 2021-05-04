@@ -1,6 +1,6 @@
-package Exercícios;
+package ExercÃ­cios;
 
-public class Exercício4 {
+public class ExercÃ­cio4 {
 
 	public static void main(String[] args) {
 		
@@ -12,7 +12,7 @@ public class Exercício4 {
 	        }   
         }
 		
-		System.out.println("Os valores da soma dos indices são: " );
+		System.out.println("Os valores da soma dos indices sÃ£o: " );
 		
 		for ( int cont1 = 49; cont1 >= 0; cont1-- )	{
             for ( int cont2 = 99; cont2 >= 0; cont2-- )	{
