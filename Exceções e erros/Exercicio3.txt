@@ -1,0 +1,20 @@
+public class ExcecaoNull {
+  
+  public static void main(String[] args) {
+    
+    String nomeCompleto = null;
+    
+    try	{
+      
+      nomeCompleto.toLowerCase();    
+    
+    } catch (NullPointerException e)	{
+      System.out.println("A variável está nula.");
+      nomeCompleto = "Neymar da Silva Santos Júnior";  
+      nomeCompleto=nomeCompleto.toLowerCase();
+      
+    } finally	{
+      System.out.println( nomeCompleto ); 
+    } 
+  }
+}

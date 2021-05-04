@@ -1,0 +1,33 @@
+import java.util.Scanner;
+import java.util.InputMismatchException;
+
+public class teste1 {
+  
+  public static void main(String[] args) {
+    
+    Integer numero = 0;
+    Scanner sc = new Scanner(System.in);
+    boolean verdade = true;
+    
+    while(verdade) {
+      
+      try {
+        System.out.print("Entre com um valor númerico: ");
+        numero = sc.nextInt();
+        verdade = false; 
+      
+      } catch(InputMismatchException e) {
+        System.out.println("O Valor é indevido");
+        sc.nextLine();
+      
+      } finally	{
+        if(verdade == false)	{
+          System.out.println("O número digitado foi: " + numero);
+        } else {
+          System.out.println("Foi pedido para você digitar um número!!");
+          System.out.println();
+        }
+      }
+    }
+  }
+}

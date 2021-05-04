@@ -1,0 +1,9 @@
+ArithmeticException – Este tipo de exceção é gerado quando acontece erros ao tentar realizar uma operação aritmética, projeção ou conversão, como por exemplo, ao tentar dividir qualquer número por pelo número 0, este tipo de exceção é gerado.
+
+InputMismatchException – Este tipo de exceção ocorre ao usuário tentar entrar com um valor de um tipo pelo qual o scanner não está programado para receber, como por exemplo, o scanner está programado para receber um Integer e o usuário digita caracteres.  
+
+ArrayIndexOutOfBoundsException – Este tipo de exceção ocorre ao tentar acessar uma posição inexistente de um vetor, como por exemplo um valor negativo ou um valor acima do que está estipulado no vetor.
+
+ClassCastException – Este tipo de exceção é gerado ao tentar realizar a operação de colocar um objeto para uma subclasse na qual não é uma instância, como por exemplo, ao tentar converter um Integer para uma String, String não é subclasse de Integer.
+
+NullPointerException – Este tipo de exceção é gerado quando se tenta acessar um objeto de memória no qual não foi instanciado até o momento em que ele foi chamado, como por exemplo, usar o método toLowerCase() em uma variável nula. 
