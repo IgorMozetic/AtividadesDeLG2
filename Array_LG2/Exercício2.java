@@ -13,7 +13,7 @@ public class Exercício2 {
 		System.out.println("Os elementos do array são: ");
 		
 		for (int contador = 9; contador >= 0 ; contador-- )	{
-			System.out.println( array1[contador] );
+			System.out.println(array1[contador]);
 		}
 	}
 }
