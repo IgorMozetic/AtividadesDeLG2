@@ -23,7 +23,7 @@ public class Ordenacao_BubbleSort {
 				break;
 			}
 		}
-		System.out.print("O vetor de forma ordenada crescente por BubbleSort é: ");
+		System.out.print("O vetor de forma ordenada crescente por BubbleSort Ã©: ");
 		for( int i = 0; i < vetor.length; ++i)	{
 			System.out.print(vetor[i] + ", ");
 		}
